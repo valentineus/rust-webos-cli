@@ -1,5 +1,5 @@
 [package]
-name = "webos-cli"
+name = "packer"
 version = "0.1.0"
 authors = ["Valentin Popov <info@valentineus.link>"]
 edition = "2018"
