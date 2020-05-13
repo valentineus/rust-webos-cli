@@ -1,0 +1,29 @@
+name: "WebOS Packer"
+version: "0.1.0"
+author: "Valentin Popov <info@valentineus.link>"
+about: "Utility to create installation WebOS's package."
+args:
+  - debug:
+      about: "Show debug information"
+      long: "debug"
+      short: "d"
+  - exclude:
+      about: "The list excludes directory and files"
+      long: "exclude"
+      multiple: true
+      short: "e"
+      takes_value: true
+      value_name: "RegExp"
+  - output:
+      about: "Specific path output file"
+      long: "output"
+      short: "o"
+      takes_value: true
+      value_name: "/path/to/file"
+  - services:
+      about: "Add background JS service"
+      long: "service"
+      multiple: true
+      short: "s"
+      takes_value: true
+      value_name: "/path/to/service"
